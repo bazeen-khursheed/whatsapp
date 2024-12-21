@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: "Nunito", sans-serif;
+}
+.head{
+    display: flex;
+}
+.main1{
+    border: 1px solid  rgb(210, 210, 210);
+    width: 380px;
+    height: 593px;
+}
+.main2{
+    border: 1px solid  rgb(210, 210, 210);
+    width: 520px;
+    height: 593px;
+}
+.main3{
+    border: 1px solid  rgb(210, 210, 210);
+    width: 380px;
+    height: 593px;
+}
+.profile img{
+    width: 35px;
+    border-radius: 40px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: none;
+}
+.status{
+    width: 18px;
+    height: 18px;
+}
+.nav1{
+    display: flex;
+    align-items: center;
+   background-color:  rgb(243, 239, 239);
+}
+.up{
+    margin-left: 120px;
+    color: rgb(74, 73, 73);
+}
+i{
+    padding: 20px;
+}
+#moon{
+    font-size: 20px;
+}
+#msg{
+    font-size: 20px;
+}
+#eli{
+    font-size: 20px;
+}
+.lit{
+    display: flex;
+    align-items: center;
+}
+h2{
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.nav2{
+    background-color: rgb(173, 232, 247);
+    height: 90px;
+}
+#cross{
+    margin-left: 180px;
+}
+.nav2 p{
+    margin-left: 40px;
+    font-size: 14px;
+    color: rgb(99, 98, 98);
+}
+span{
+    text-decoration: underline;
+}
+.nav3{
+    background-color: rgba(227, 226, 226, 0.904);
+    width: 360px;
+    height: 45px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+   
+}
+#glass{
+    color: green;
+}
+.lit2{
+    display: flex;
+    align-items: center;
+}
+.lit1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 30px;
+}
+.baby1{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.nav4{
+    background-color: rgba(227, 226, 226, 0.904);
+    height: 62px;
+    display: flex;
+    align-items: center;
+ 
+    margin-top: 5px;
+}
+.nav5{
+    
+    height: 63px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(235, 232, 232)
+}
+.lit1 h2{
+    margin-top: 40px;
+   position: relative; right: 20px;
+}
+.lit2{
+    position: relative; bottom: 20px;
+}
+.lit2 p{
+    margin-right: 20px;
+    position: relative; right: 15px;
+    color:  rgb(99, 98, 98);
+}
+#check{
+    color:  rgb(99, 98, 98);
+}
+.lit3{
+    flex-direction: column;
+    margin-left: 100px;
+    font-size: 14px;
+}
+.am{
+    color:  rgb(99, 98, 98);
+    padding-bottom: 3px;
+}
+.p5{
+    
+    color:  white;
+    background-color: rgb(78, 214, 78);
+    border-radius: 20px;
+    width: 17px;
+    height: 17px;
+    padding-left: 3px;
+    font-size: 13px;
+    margin-left: 5px;
+}
+#check2{
+    color: blue;
+}
+.john{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 20px;
+    
+}
+.main2 .nav1{
+    display: flex;
+    align-items: center;
+    background-color: rgb(243, 239, 239);
+}
+
+.main2 .lit{
+    margin-left: 200px;
+    font-size: 18px;
+    color: rgb(99, 98, 98);
+}
+.main2 .nav1 h2{
+    margin-bottom: 18px;
+  
+}
+.main2 .nav2{
+    display: flex;
+   
+    font-size: 14px;
+    background-color: bisque;
+    width: 500px;
+    height: 52px;
+   padding: 5px 5px 20px 0px;
+   padding-right: 20px;
+   border-radius: 7px;
+   margin-left: 7px;
+   margin-top: 15px;
+}
+.today{
+    background-color: rgb(209, 245, 254);
+    width: 65px;
+    text-transform: uppercase;
+    font-size: 14px;
+   padding: 7px 9px;
+   border-radius: 7px;
+   margin-left: 230px;
+   margin-top: 7px;
+}
+.main2{
+    background-color: rgb(222, 216, 206);
+}
+.a{
+    background-color: white;
+    width: 240px;
+    height: 40px;
+    padding: 5px ;
+    padding-left: 7px;
+    padding-top: 8px;
+    font-size: 14px;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.b{
+    background-color: rgba(229, 254, 193, 0.877);
+    width: 100px;
+    height: 40px;
+    padding: 5px ;
+    padding-left: 7px;
+    padding-top: 8px;
+    font-size: 14px;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-left: 390px;
+}
+.b2{
+    background-color:rgba(229, 254, 193, 0.877);
+    width: 190px;
+    height: 40px;
+    padding: 5px ;
+    padding-left: 7px;
+    padding-top: 3px;
+    font-size: 14px;
+    border-radius: 8px;
+    margin-top: 6px;
+    margin-left: 300px;
+}
+.a8{
+    font-size: 10px;
+    color: rgb(99, 98, 98);
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+.b8{
+    font-size: 10px;
+    color: rgb(99, 98, 98);
+    margin-left: 60px;
+    
+}
+.b9{
+    font-size: 10px;
+    color: rgb(99, 98, 98);
+    margin-left: 150px;
+    
+}
+.main3 .nav1{
+    display: flex;
+    align-items: center;
+    background-color: rgb(243, 239, 239);
+    height: 60px;
+   
+}
+.he2{
+    margin-right: 40px;
+    margin-bottom: 20px;
+    
+}
+#cross1{
+    font-size: 20px;
+   color: rgb(99, 98, 98);
+}
+.baby2{
+    width: 190px;
+    height: 190px;
+    margin-top: 30px;
+    border: 1px solid salmon;
+    
+    border-radius: 100px;
+    margin-left: 96px;
+}
+.hea2{
+    margin-left: 150px;
+}
+hr{
+    border: 6px solid rgb(222, 216, 206);
+    margin-top: 20px;
+}
+.lit0{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+.lit0 p{
+    color: rgb(25, 218, 198);
+    
+}
+.lit8{
+    color: rgb(25, 218, 198);
+    margin-left: 20px;
+    margin-top: 5px;
+}
+#ar{
+    color: rgb(99, 98, 98);
+}
+.re{
+    width: 85px;
+    height: 70px;
+    margin-left: px;
+}
+.co{
+    width: 85px;
+    height: 70px;
+    margin-left: 25px;
+}
+.im{
+    width: 85px;
+    height: 70px;
+    margin-left: 25px;
+}
+.lit9{
+    margin-left: 30px;
+  
+}
+.lit7{
+    margin-left: 20px;
+    color: rgb(99, 98, 98);
+}
+.lit6{
+    background-color: rgb(243, 239, 239);
+    margin-top: 5px;
+}
+.inp{
+    background-color:white;
+    border: 1px solid white;
+    padding: 7px 10px;
+    width: 380px;
+    border-radius: 7px;
+}
+#paper{
+    color: rgb(99, 98, 98);
+}
+#plane{
+    color: rgb(99, 98, 98);
+}
